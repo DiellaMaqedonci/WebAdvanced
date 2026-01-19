@@ -1,0 +1,61 @@
+h1{
+    color: black;
+    text-align: center;
+    letter-spacing: 20px;
+    word-spacing: 30px;
+    height: 40px;
+}
+
+body{
+    background-color: pink;
+}
+
+p{
+    text-indent: 25px;
+    margin-top: 50px;
+    text-align: center;
+    /*writing-mode: vertical-lr;*/
+    font-family: cursive;
+}
+
+h2{
+    text-decoration: overline;
+    margin-top: 40px;
+}
+
+h3{
+    text-decoration: line-through;
+    margin-top: 30px;
+}
+
+h4{
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.myElement{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+#normalText{
+    font-style: normal;
+    writing-mode: horizontal-tb;
+    font-weight: normal;
+}
+
+#italicText{
+    font-style: italic;
+    writing-mode: horizontal-tb;
+    font-weight: bold;
+}
+
+#obliqueText{
+    font-style: oblique;
+    writing-mode: horizontal-tb;
+    font-weight: lighter;
+}
+
+a{
+    text-align: center;
+}
