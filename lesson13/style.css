@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(236, 229, 243);
+}
+
+
+/*ul{
+    list-style-type: armenian;
+    /*list-style-image: url("images/images.png");
+    padding: 0;
+    border: 2px solid rgb(44, 3, 44);
+}
+
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 2px solid rgb(44, 3, 44);
+}*/
+
+
+ol{
+    list-style-type: upper-latin;
+    background: rgb(165, 128, 199);
+    padding: 15px;
+}
+
+
+ol li{
+    background: rgb(218, 201, 233);
+    padding: 10px;
+    margin-left: 30px;
+}
+
+
+ul{
+    border-left: 15px solid rgb(165, 128, 199);
+    background-color: rgb(218, 201, 223);
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+
+h1{
+    color: rgb(66, 32, 97);
+    text-align: center;
+    font-family: monospace;
+}
