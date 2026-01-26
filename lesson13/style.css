@@ -25,7 +25,7 @@ ol{
 
 
 ol li{
-    background: rgb(218, 201, 233);
+    background: rgb(218, 201, 223);
     padding: 10px;
     margin-left: 30px;
 }
@@ -44,4 +44,57 @@ h1{
     color: rgb(66, 32, 97);
     text-align: center;
     font-family: monospace;
+}
+
+/*Lesson 13 - Part 2*/
+table{
+    border-collapse: collapse;
+}
+
+
+th, td{
+    border: 1px solid rgb(165, 128, 199);
+    padding: 15px;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: rgb(218, 201, 223);
+}
+
+
+tbody tr:nth-child(even){
+    background-color: rgb(218, 201, 233);
+}
+
+
+div{
+    overflow: scroll;
+    background-color: rgb(212, 197, 228);
+    width: 200px;
+    height: 200px;
+}
+
+div{
+    overflow: scroll;
+    background-color: rgb(212, 197, 228);
+    width: 200px;
+    height: 200px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(218, 201, 233)
 }
