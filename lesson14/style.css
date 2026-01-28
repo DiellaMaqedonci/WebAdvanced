@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(221, 158, 171);
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(236, 205, 205);
+}
+
+p{
+    color: white;
+}
+
+
+form{
+    margin-top: 20px;
+}
+
+
+/*Combinators*/
+article p{
+    background: rgb(204, 121, 138);
+    color: white;
+    padding: 20px;
+}
+
+
+article > p{
+    background-color: rgb(206, 154, 154);
+}
+
+
+article ~ p{
+    background-color: rgba(230, 131, 118, 0.507);
+    padding: 20px;
+}
+
+
+article + p{
+    background-color: rgb(255, 180, 180);
+}
+
+
+/*Pseudo-Class, gjendja momentale te elementit*/
+input:invalid{
+    border: 2px solid rgba(230, 131, 118, 0.507);
+}
+
+
+/*Pseudo-Element, cilin element specifik po kemi deshire me edit*/
+span:first-of-type{
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+}
+
+
+/*Opacity, transparancy(hijezim)*/
+div{
+    opacity: 0.5;
+}
