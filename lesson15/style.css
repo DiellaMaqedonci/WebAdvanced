@@ -1,0 +1,94 @@
+h1{
+   text-align: center;
+   color: darkgoldenrod;
+   font-family: 'Georgia', serif;
+}
+
+
+body{
+    background-color: rgb(228, 216, 190);
+}
+
+
+h2{
+    color: rgb(182, 147, 104);
+    font-family: 'Georgia', serif;
+}
+
+
+div{
+    color: rgb(182, 147, 104);
+}
+
+
+p{
+    color: rgb(182, 147, 104);
+}
+
+
+div#static{
+    position: static;
+    border: 3px solid darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+div#relative{
+    position: relative;
+    border: 3px solid darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+div#fixed{
+    position: fixed;
+    border: 3px solid darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    bottom: 503px;
+    left: 400px;
+}
+
+
+#h1fixed{
+    position: fixed;
+    bottom: 747px;
+    left: 400px;
+}
+
+
+div#parent{
+    position: relative;
+    border: 3px solid darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+div#absolute{
+    position: absolute;
+    border: 3px solid darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    top: 50px;
+    left: 50px;
+}
+
+
+div#sticky{
+    position: sticky;
+    border: 3px solid darkgoldenrod;
+    padding: 20px;
+}
+
+
+#h2sticky{
+margin-top: 100px;
+}
