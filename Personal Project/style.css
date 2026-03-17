@@ -113,9 +113,29 @@ nav ul li.active{
 }
 
 
+.products-box2{
+    margin-top: 80px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+
+.products-box3{
+    margin-top: 80px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+
 .products{
     height: 20%;
-    width: 25%;
+    width: 17%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -124,6 +144,8 @@ nav ul li.active{
 
 
 .products h3{
+    color: rgb(102, 77, 77);
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -132,6 +154,210 @@ nav ul li.active{
 
 
 .products p{
+    text-align: center;
     font-size: 16px;
     line-height: 26px;
+}
+
+
+#section-2 a{
+    color: rgb(102, 77, 77);
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+
+/*Section 3*/
+#section-3{
+    background-color: #b99e9e;
+    min-height: 820px;
+    color: white;
+}
+
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form-row{
+    display: flex;
+}
+
+
+input[type="text"], [type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+
+input[type="text"], [type="email"], textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #af9494;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+
+input[type="submit"]{
+    background-color: #755757;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+
+.big-button{
+    padding: 25px 85px;
+    color: white;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #9b8a93;
+}
+
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer ul{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+
+@media only screen and (max-width: 800px){
+
+    header{
+        flex-direction: column;
+    }
+
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    header img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main-heading h1{
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main-heading a{
+        font-size: 13px;
+        padding: 25px;
+    }
+
+
+    .main-heading{
+        margin-top: 0;
+    }
+
+
+    nav ul li.active{
+        padding-right: 0;
+    }
+
+
+    nav ul{
+        padding-left: 0;
+    }
+
+
+    .service{
+        width: 100%;
+    }
+
+
+    .services-box{
+        flex-direction: column;
+    }
+
+
+    .title-box{
+        width: 90%;
+    }
+
+
+    .form-row{
+        flex-direction: column;
+    }
+
+
+    input[type="text"], input[type="email"], textarea{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    footer ul{
+        flex-direction: column;
+    }
+
+
+    footer ul li{
+        text-align: center;
+    }
+
+    
+}
+
+footer h3{
+    color: white;
+    text-align: center;
 }
