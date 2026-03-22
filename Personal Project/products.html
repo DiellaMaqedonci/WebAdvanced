@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Project - Products</title>
+   <link rel="stylesheet" href="style.css">
+
+<style>
+
+#logo_prod{
+    height: 165px;
+    width: 300px;
+    background-color: rgb(250, 240, 255);
+    border-radius: 50%;
+}
+
+
+/*Section 1*/
+#section-1_prod{
+    background-color: #d3b8d3;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+
+header{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav_prod ul li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+
+.nav_prod ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav_prod ul li.active{
+    background-color: none;
+    font-size: 20px;
+}
+
+
+.nav_prod ul li.active:hover{
+    background-color: rgb(159, 147, 163);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+/*Section-2*/
+#section-2_prod{
+    background-color: #ecdbec;
+    height: 1500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    text-align:center;
+    margin:0 0 20px 0;
+    font-size:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #675769;
+}
+
+.products-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.product{
+    background: rgb(#b37c9a, green, blue);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.product:hover{
+    transform:translateY(-8px);
+}
+
+.product img{
+    width: 100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.product h3{
+    margin:15px 0 5px 0;
+    font-size:18px;
+    color: #675769;
+}
+
+.product p{
+    color:#777;
+    font-size:14px;
+}
+
+.product span{
+    display:block;
+    margin:10px 0;
+    font-weight:bold;
+    color:#675769;
+}
+
+.product button{
+    margin-bottom:15px;
+    padding:10px 20px;
+    border:none;
+    background:#928292;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.product button:hover{
+    background:#a390a5;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 800px){
+
+    header{
+        flex-direction: column;
+    }
+
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_abt ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_contact ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_prod ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_perf ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    header img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main-heading h1{
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main-heading a{
+        font-size: 13px;
+        padding: 25px;
+    }
+
+
+    .main-heading{
+        margin-top: 0;
+    }
+
+
+    nav ul li.active{
+        padding-right: 0;
+    }
+
+
+    nav ul{
+        padding-left: 0;
+    }
+
+
+    .nav_abt ul li.active{
+        padding-right: 0;
+    }
+
+
+    .nav_abt ul{
+        padding-left: 0;
+    }
+
+
+    .nav_contact ul li.active{
+        padding-right: 0;
+    }
+
+
+    .nav_contact ul{
+        padding-left: 0;
+    }
+
+
+    .nav_prod ul li.active{
+        padding-right: 0;
+    }
+
+
+    .nav_prod ul{
+        padding-left: 0;
+    }
+
+
+    .nav_perf ul li.active{
+        padding-right: 0;
+    }
+
+
+    .nav_perf ul{
+        padding-left: 0;
+    }
+
+
+    .product{
+        width: 100%;
+    }
+
+
+    .products-box{
+        flex-direction: column;
+    }
+
+
+    .title-box{
+        width: 90%;
+    }
+
+
+    .form-row{
+        flex-direction: column;
+    }
+
+
+    input[type="text"], input[type="email"], textarea{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    footer ul{
+        flex-direction: column;
+    }
+
+
+    footer ul li{
+        text-align: center;
+    }
+
+    
+}
+
+</style>
+
+</head>
+<body>
+
+    <section id="section-1_prod">
+        <div class="container">
+            <header>
+
+                <img id="logo_prod" src="images/logo.png">
+
+                <nav class="nav_prod">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="about.html">About Us</a></li>
+                        <li class="active"><a href="contact.html">Contact Info</a></li>
+                        <li class="active"><a href="products.html">Products</a></li>
+                        <li class="active"><a href="perfkits.html">Perf Kits</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+        </div>
+    </section>
+
+
+    <section id="section-2_prod">
+                <h2>Perfectil Beauty</h2>
+
+    <div class="products-box">
+
+
+        <div class="product"><img src="images/primer.png"><h3>Primer</h3><p>Make-Up</p><span>€6</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/foundation.png"><h3>Foundation</h3><p>Make-Up</p><span>€23</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/concealer.png"><h3>Concealer</h3><p>Make-Up</p><span>€10</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/contour.jpg"><h3>Contour</h3><p>Make-Up</p><span>€8</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/blush.png"><h3>Blush</h3><p>Make-Up</p><span>€16</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/highlighter.jpg"><h3>Highlighter</h3><p>Make-Up</p><span>€12</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/powder.jpg"><h3>Setting Powder</h3><p>Make-Up</p><span>€27</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/browgel.jpg"><h3>Brow Gel</h3><p>Make-Up</p><span>€5</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/lashcurler.jpg"><h3>Lash Curler</h3><p>Make-Up</p><span>€4</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/eyeshadow.png"><h3>Eye Shadow</h3><p>Make-Up</p><span>€20</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/mascara.jpg"><h3>Mascara</h3><p>Make-Up</p><span>€12</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/lipliner.jpg"><h3>Lipliner</h3><p>Make-Up</p><span>€3</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/liptint.jpg"><h3>Lip Tint</h3><p>Make-Up</p><span>€6</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/lipgloss.jpg"><h3>Lip Gloss</h3><p>Make-Up</p><span>€8</span><button>Buy</button></div>
+
+        <div class="product"><img src="images/settingspray.jpg"><h3>Setting Spray</h3><p>Make-Up</p><span>€11</span><button>Buy</button></div>
+
+
+    </div>
+    </section>
+
+</body>
+</html>
