@@ -16,7 +16,7 @@
 }
 
 
-.container{
+.container1{
     margin-left: auto;
     margin-right: auto;
     height: 100%;
@@ -84,7 +84,14 @@ nav ul li.active:hover{
 #section-2{
     background-image: url(images/home_section2.jpg);
     min-height: 745px;
+<<<<<<< HEAD
     color: rgb(250, 236, 236);
+=======
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+>>>>>>> 90d31880360161dcad90a82b1915a4f1b0e01b37
 }
 
 
@@ -115,6 +122,7 @@ nav ul li.active:hover{
 }
 
 
+<<<<<<< HEAD
 .brands-box{
     margin-top: 80px;
     display: flex;
@@ -159,29 +167,147 @@ nav ul li.active:hover{
     background-color: rgb(219, 206, 216);
     border-radius: 50%;
     text-align: center;
+=======
+.container2 {
+    max-width: 1400px;
+    width: 100%;
 }
+
+.title-box {
+    margin-right: 1500px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.products {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.products:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.products img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    color: rosybrown;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #333;
+>>>>>>> 90d31880360161dcad90a82b1915a4f1b0e01b37
+}
+
 
 
 /*Section 3*/
 #section-3{
+<<<<<<< HEAD
     background-image: url(images/home_section3.jpg);
     min-height: 500px;
+=======
+    background-color: #d4c8c8;
+    min-height: 820px;
+>>>>>>> 90d31880360161dcad90a82b1915a4f1b0e01b37
     color: white;
 }
 
 
+<<<<<<< HEAD
 .title-box a{
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
     color: #534a53;
     background-color: #af97af;
+=======
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form-row{
+    display: flex;
+}
+
+
+input[type="text"], [type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+
+input[type="text"], [type="email"], textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #a59797;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+>>>>>>> 90d31880360161dcad90a82b1915a4f1b0e01b37
     border-radius: 5px;
     position: absolute;
     top: 1900px;
     right: 1000px;
 
+<<<<<<< HEAD
     
+=======
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+
+input[type="submit"]{
+    background-color: #a89797;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+
+.big-button{
+    padding: 25px 85px;
+    color: white;
+>>>>>>> 90d31880360161dcad90a82b1915a4f1b0e01b37
 }
 
 
