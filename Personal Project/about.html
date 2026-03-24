@@ -169,150 +169,118 @@ footer ul{
 /*Responsive*/
 @media only screen and (max-width: 800px){
 
+    /* Header & Logo */
     header{
         flex-direction: column;
+        padding: 30px 20px;
     }
 
+    header img{
+        margin: 0 auto;
+        width: 200px; /* scales logo */
+        height: auto;
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
 
     nav ul li{
         width: 100%;
         text-align: center;
+        margin: 5px 0;
     }
 
-    .nav_abt ul li{
-        width: 100%;
-        text-align: center;
+    nav ul li a{
+        font-size: 16px;
+        padding: 10px;
     }
 
-    .nav_contact ul li{
-        width: 100%;
-        text-align: center;
+    /* Main headings */
+    .main-heading{
+        margin-top: 30px;
     }
-
-    .nav_prod ul li{
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav_perf ul li{
-        width: 100%;
-        text-align: center;
-    }
-
-
-    header img{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 
     .main-heading h1{
-        font-size: 20px;
+        font-size: clamp(20px, 5vw, 42px);
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 20px auto;
+        background-color: rgba(240, 221, 237, 0.35);
     }
-
 
     .main-heading a{
-        font-size: 13px;
-        padding: 25px;
+        font-size: 16px;
+        padding: 15px 30px;
     }
 
-
-    .main-heading{
-        margin-top: 0;
+    /* Section 1 and 3 adjustments */
+    #section-1, #section-3{
+        min-height: auto;
+        padding: 60px 20px;
     }
 
-
-    nav ul li.active{
-        padding-right: 0;
+    #section-3 .title-box a{
+        position: static;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 12px 30px;
     }
 
-
-    nav ul{
-        padding-left: 0;
-    }
-
-
-    .nav_abt ul li.active{
-        padding-right: 0;
-    }
-
-
-    .nav_abt ul{
-        padding-left: 0;
-    }
-
-
-    .nav_contact ul li.active{
-        padding-right: 0;
-    }
-
-
-    .nav_contact ul{
-        padding-left: 0;
-    }
-
-
-    .nav_prod ul li.active{
-        padding-right: 0;
-    }
-
-
-    .nav_prod ul{
-        padding-left: 0;
-    }
-
-
-    .nav_perf ul li.active{
-        padding-right: 0;
-    }
-
-
-    .nav_perf ul{
-        padding-left: 0;
-    }
-
-
-    .product{
-        width: 100%;
-    }
-
-
-    .products-box{
+    /* Brands / Popular products */
+    .brands-box,
+    .brands-box2,
+    .brands-box3{
         flex-direction: column;
+        gap: 15px;
+        align-items: center;
     }
 
-
-    .title-box{
-        width: 90%;
+    /* Products grid */
+    .products-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
+    .product img{
+        width: 100%;
+        height: auto;
+    }
 
+    /* Forms */
     .form-row{
         flex-direction: column;
+        gap: 10px;
     }
-
 
     input[type="text"], input[type="email"], textarea{
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 10px auto;
     }
 
+    input[type="submit"].big-button{
+        width: 90%;
+        padding: 20px;
+        font-size: 16px;
+    }
 
+}
+
+/* Footer */
     footer ul{
-        flex-direction: column;
+        flex-direction: row;
+        text-align: center;
+        padding: 15px 0;
     }
-
 
     footer ul li{
-        text-align: center;
+        margin: 5px 0;
     }
 
-    
-}
 
 footer h3{
     color: white;
@@ -328,7 +296,7 @@ footer h3{
         <div class="container">
             <header>
 
-                <img id="logo_abt" src="images/logo.png">
+                <img id="logo_abt" src="images/logo2.png">
 
                 <nav class="nav_abt">
                     <ul>
@@ -342,7 +310,7 @@ footer h3{
             </header>
 
             <div class="main-heading">
-                <h1>Perfectable Beauty is a Website where you can shop for all kinds of Make-Up of every known Brand!</h1>
+                <h1>Perfectil Beauty is a Website where you can shop for all kinds of Make-Up of every known Brand!</h1>
                 <a href="products.html">Shop Now</a>
             </div>
 
