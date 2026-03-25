@@ -1,14 +1,14 @@
 #logo{
     height: 165px;
     width: 300px;
-    background-color: rgb(240, 221, 237);
+    background-color: rgb(197, 180, 195);
     border-radius: 100%;
 }
 
 
 /*Section 1*/
 #section-1{
-    background-image: url("images/home_section1_2.jpg");
+    background-color: #9b8a93;
     height: 750px;
     background-size: cover;
     background-position: center;
@@ -49,7 +49,7 @@ nav ul li.active{
 
 
 nav ul li.active:hover{
-    background-color: rgb(167, 119, 119);
+    background-color: rgb(109, 81, 81);
     border-radius: 5px;
     font-size: 20px;
 }
@@ -62,8 +62,7 @@ nav ul li.active:hover{
 
 
 .main-heading h1{
-    color: rgb(102, 52, 93);
-    background-color: rgba(240, 221, 237, 0.349);
+    color: white;
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 60px;
